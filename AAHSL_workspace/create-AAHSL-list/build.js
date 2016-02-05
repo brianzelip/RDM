@@ -25,7 +25,7 @@ var PAGE8 = 'http://www.aahsl.org/index.php?option=com_community&view=search&sea
 var PAGE9 = 'http://www.aahsl.org/index.php?option=com_community&view=search&searchId=102171&uuId=56b4095182983&params[servId]=1041&params[option]=com_community&params[view]=search&params[searchId]=102171&params[Itemid]=&limitstart=160'
 
 
-function page1 (refUrl, callback) {
+function page1Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -39,13 +39,9 @@ function page1 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -53,6 +49,27 @@ function page1 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page1.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page1Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE1
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -64,7 +81,7 @@ function page1 (refUrl, callback) {
   })
 }
 
-function page2 (refUrl, callback) {
+function page2Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -78,13 +95,9 @@ function page2 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -92,6 +105,27 @@ function page2 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page2.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page2Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE2
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -103,7 +137,7 @@ function page2 (refUrl, callback) {
   })
 }
 
-function page3 (refUrl, callback) {
+function page3Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -117,13 +151,9 @@ function page3 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -131,6 +161,27 @@ function page3 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page3.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page3Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE3
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -142,7 +193,7 @@ function page3 (refUrl, callback) {
   })
 }
 
-function page4 (refUrl, callback) {
+function page4Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -156,13 +207,9 @@ function page4 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -170,6 +217,27 @@ function page4 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page4.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page4Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE4
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -181,7 +249,7 @@ function page4 (refUrl, callback) {
   })
 }
 
-function page5 (refUrl, callback) {
+function page5Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -195,13 +263,9 @@ function page5 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -209,6 +273,27 @@ function page5 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page5.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page5Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE5
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -220,7 +305,7 @@ function page5 (refUrl, callback) {
   })
 }
 
-function page6 (refUrl, callback) {
+function page6Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -234,13 +319,9 @@ function page6 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -248,6 +329,27 @@ function page6 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page6.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page6Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE6
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -259,7 +361,7 @@ function page6 (refUrl, callback) {
   })
 }
 
-function page7 (refUrl, callback) {
+function page7Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -273,13 +375,9 @@ function page7 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -287,6 +385,27 @@ function page7 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page7.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page7Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE7
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -298,7 +417,7 @@ function page7 (refUrl, callback) {
   })
 }
 
-function page8 (refUrl, callback) {
+function page8Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -312,13 +431,9 @@ function page8 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -326,6 +441,27 @@ function page8 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page8.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page8Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE8
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -337,7 +473,7 @@ function page8 (refUrl, callback) {
   })
 }
 
-function page9 (refUrl, callback) {
+function page9Insts (refUrl, callback) {
   var props = []
   if (!callback) {
     callback = refUrl
@@ -351,13 +487,9 @@ function page9 (refUrl, callback) {
     }
 
     var $ = cheerio.load(body)
-    var instNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var instNames = $('div.mini-profile').find('div.searchTemplateRow12')
     var instLen = instNames.length
     var instNameItems = instNames.toArray()
-
-    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
-    var libLen = libNames.length
-    var libNameItems = libNames.toArray()
 
     eachAsync(instNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -365,6 +497,27 @@ function page9 (refUrl, callback) {
     }, function () {
       fs.writeFile('AAHSL.Page9.Insts.json', trailingLine(JSON.stringify(props)))
     })
+
+  })
+}
+
+function page9Libs (refUrl, callback) {
+  var props = []
+  if (!callback) {
+    callback = refUrl
+    refUrl = PAGE9
+  }
+
+  got.get(refUrl, function (err, body) {
+    if (err) {
+      callback(err)
+      return
+    }
+
+    var $ = cheerio.load(body)
+    var libNames = $('div.mini-profile').find('div.searchTemplateRow11')
+    var libLen = libNames.length
+    var libNameItems = libNames.toArray()
 
     eachAsync(libNameItems, function (item, index, done) {
       props.push(item.children[0].data)
@@ -376,12 +529,22 @@ function page9 (refUrl, callback) {
   })
 }
 
-page1()
-page2()
-page3()
-page4()
-page5()
-page6()
-page7()
-page8()
-page9()
+
+page1Insts()
+page1Libs()
+page2Insts()
+page2Libs()
+page3Insts()
+page3Libs()
+page4Insts()
+page4Libs()
+page5Insts()
+page5Libs()
+page6Insts()
+page6Libs()
+page7Insts()
+page7Libs()
+page8Insts()
+page8Libs()
+page9Insts()
+page9Libs()
