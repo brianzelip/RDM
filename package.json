@@ -1,0 +1,7 @@
+{
+  "name": "Research Data Management Task Force Work",
+  "description": "Sandbox space for carrying out ideas related to the task force.",
+  "devDependencies": {
+    "css-properties": "^2.0.2"
+  }
+}
