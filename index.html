@@ -17,9 +17,9 @@
   <body>
 
     <ol>
-    {% for member in site.data.arl_members %}
+    {% for member in site.data.AAHSL_members100 %}
       <li>
-        <a href="{{ member.url }}">{{ member.name }}</a>
+        <a href="{{ member.libUrl }}">{{ member.instName }}</a>
       </li>
     {% endfor %}
     </ol>
