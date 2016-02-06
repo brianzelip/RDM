@@ -1,5 +1,31 @@
 'use strict'
 
+/*
+ *  To run this file, run the following command
+ *  from the parent directory:
+ *  
+ *    > node build
+ *  
+ *  It will output 18 json files, 9 of institution
+ *  names and 9 of library names.
+ *
+ *  The purpose of this javascript is to scrape the 
+ *  members directory of the Association of Academic
+ *  Health Science Libraries.
+
+ *  At the time of research (February 2016) there are 162 members.
+ *  The list of 162 members is broken up across 9
+ *  individual pages of 20 members/page.
+ *
+ *  These numbers are hardcoded into the code
+ *  below and might need to be adjusted accordingly
+ *  for future use.
+ *  
+ *  Adapted from John Otander's css-properties tool,
+ *  https://github.com/johnotander/css-properties
+ *
+ */
+
 var fs = require('fs')
 var cheerio = require('cheerio')
 var got = require('got')
