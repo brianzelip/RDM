@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css">
     <title>web demo w/ arl members data</title>
     <meta name="description" content="">
@@ -16,13 +17,14 @@
 
   <body>
 
-    <ol>
-    {% for member in site.data.AAHSL_members100 %}
-      <li>
-        <a href="{{ member.libUrl }}">{{ member.instName }}</a>
-      </li>
-    {% endfor %}
-    </ol>
+    <main class="col-6 mx-auto">
+      <h1>AAHSL Members</h1>
+      <ol>{% for member in site.data.AAHSL_members100 %}
+        <li>
+          <a href="{{ member.libUrl }}">{{ member.instName }}</a>
+        </li>{% endfor %}
+      </ol>
+    </main>
 
   </body>
 
