@@ -1,0 +1,49 @@
+# Search query list .1
+research data management
+research data services
+data services
+data management
+data curation
+digital curation
+research data support
+research data
+managing data
+data standards
+data sharing
+data repository
+data access
+data preservation
+digital preservation
+
+# quoted and put into OR sequence yields the search query below
+
+"research data management" OR "research data services" OR "data services" OR "data management" OR "data curation" OR "digital curation" OR "research data support" OR "research data" OR "managing data" OR "data standards" OR "data sharing" OR "data repository" OR "data access" OR "data preservation" OR "digital preservation"
+
+# the problem with the above when tested at library.illinois.edu is that Digital Content Curation was privileged.
+#
+# So my new iteration will re-order the phrases, prioritized by "data services" and smaller to larger
+
+
+# Search query list .2
+data services
+data management
+research data
+managing data
+research data services
+research data management
+research data support
+data access
+data repository
+data sharing
+data standards
+data curation
+digital curation
+data preservation
+digital preservation
+
+# the above list yields the below search query
+
+"data services" OR "data management" OR "research data" OR "managing data" OR "research data services" OR "research data management" OR "research data support" OR "data access" OR "data repository" OR "data sharing" OR "data standards" OR "data curation" OR "digital curation" OR "data preservation" OR "digital preservation"
+
+# Same results at library.illinois.edu HA!!
+
