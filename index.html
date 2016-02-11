@@ -19,7 +19,7 @@
 
     <main class="col-6 mx-auto">
       <h1>AAHSL Members</h1>
-      <ol>{% for member in site.data.AAHSL_members100 %}
+      <ol>{% for member in site.data.AAHSL_members %}
         <li>
           <a href="{{ member.libUrl }}">{{ member.instName }}</a>
         </li>{% endfor %}
