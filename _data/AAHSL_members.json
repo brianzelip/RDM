@@ -392,13 +392,6 @@
     "codeUrl":""
   },
   {
-    "instName":"NIH",
-    "libName":"National Library of Medicine",
-    "libUrl":"https://www.nlm.nih.gov/",
-    "code":null,
-    "codeUrl":""
-  },
-  {
     "instName":"Northern Ontario School of Medicine, NW Campus, Lakehead University",
     "libName":"Health Sciences Library",
     "libUrl":"http://www.nosm.ca/library.aspx",
@@ -476,15 +469,15 @@
     "codeUrl":""
   },
   {
-    "instName":"Rowan University",
-    "libName":"School of Osteopathic Medicine",
+    "instName":"Rowan University, School of Osteopathic Medicine",
+    "libName":"Health Sciences Library",
     "libUrl":"http://www.lib.rowan.edu/som",
     "code":null,
     "codeUrl":""
   },
   {
-    "instName":"Rowan University",
-    "libName":"Cooper Medical School",
+    "instName":"Rowan University, Cooper Medical School",
+    "libName":"Library",
     "libUrl":"http://www.lib.rowan.edu/cmsru",
     "code":null,
     "codeUrl":""
@@ -497,16 +490,16 @@
     "codeUrl":""
   },
   {
-    "instName":"Rutgers - Robert Wood Johnson Medical School",
+    "instName":"Rutgers, Robert Wood Johnson Medical School",
     "libName":"RWJ Library of the Health Sciences",
     "libUrl":"http://www.libraries.rutgers.edu/rwj",
     "code":null,
     "codeUrl":""
   },
   {
-    "instName":"Rutgers, The State University of New Jersey",
-    "libName":"Health Sciences Libraries",
-    "libUrl":"http://www.libraries.rutgers.edu/health_sciences/",
+    "instName":"Rutgers",
+    "libName":"George F. Smith Library of the Health Sciences",
+    "libUrl":"http://www.libraries.rutgers.edu/smith",
     "code":null,
     "codeUrl":""
   },
