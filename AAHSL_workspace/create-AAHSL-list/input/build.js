@@ -1,6 +1,12 @@
 'use strict'
 
 /*
+ *  This file scrapes the AAHSL member directory
+ *  and returns just the institution and library 
+ *  names of each member in the directory.
+ *
+ *  Node.js is required to run this file.
+ *
  *  To run this file, run the following command
  *  from the parent directory:
  *  
