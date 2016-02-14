@@ -45,5 +45,17 @@ digital preservation
 
 "data services" OR "data management" OR "research data" OR "managing data" OR "research data services" OR "research data management" OR "research data support" OR "data access" OR "data repository" OR "data sharing" OR "data standards" OR "data curation" OR "digital curation" OR "data preservation" OR "digital preservation"
 
-# Same results at library.illinois.edu HA!!
+# (the above yielded the same results at library.illinois.edu HA!!)
 
+# The most recent above set of search query phrases often creates errors when searching, mostly due to character and word limits placed on search tools. For example, google limits search to 32 words, and this set exceeds that. So I will need to shorten the set.
+
+# Search query list .3
+
+data services
+data management
+data support
+research data
+
+# the above list yields the below search query
+
+"data services" OR "data management" OR "data support" OR "research data"
