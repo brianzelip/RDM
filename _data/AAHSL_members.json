@@ -10,981 +10,974 @@
     "instName":"Albany Medical College",
     "libName":"Schaffer Library of Health Science",
     "libUrl":"http://www.amc.edu/Academic/Schaffer/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Albert Einstein College of Medicine",
     "libName":"D. Samuel Gottesman Library",
     "libUrl":"http://library.einstein.yu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://libguides.einstein.yu.edu/rdm"
   },
   {
     "instName":"Alpert Medical School, Brown University",
     "libName":"Champlin Memorial Library",
     "libUrl":"http://library.brown.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"https://library.brown.edu/cds/activities/#consultation"
   },
   {
     "instName":"Boston University Medical Center",
     "libName":"Alumni Medical Library",
     "libUrl":"http://med-libwww.bu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://med-libwww.bu.edu/faculty/nih_policy.php"
   },
   {
     "instName":"Case Western Reserve University School of Medicine",
     "libName":"Cleveland Health Science Library",
     "libUrl":"http://www.case.edu/chsl/library/index.html",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://library.case.edu/ksl/freedmancenter/digitalscholarship/csgd/dataservices.html"
   },
   {
     "instName":"Centers for Disease Control & Prevention",
     "libName":"CDC Public Health Library and Information Center",
     "libUrl":"http://www.cdc.gov/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Charles Drew University of Medicine & Science",
     "libName":"King/Drew Health Sciences Library",
     "libUrl":"http://library.cdrewu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"City of Hope",
     "libName":"Graff Library",
     "libUrl":"http://www.cityofhope.org/graff-library",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.cityofhope.org/research/shared-resources/bioinformatics-core"
   },
   {
     "instName":"Cleveland Clinic",
     "libName":"Cleveland Clinic Alumni Library",
     "libUrl":"http://portals.clevelandclinic.org/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Columbia University",
     "libName":"Augustus C. Long Hlt Science Library",
     "libUrl":"http://library.cumc.columbia.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://library.cumc.columbia.edu/data-management-workshop"
   },
   {
     "instName":"Creighton University",
     "libName":"Health Sciences Library",
     "libUrl":"http://www.creighton.edu/health/library/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://culibraries.creighton.edu/datamanagment"
   },
   {
     "instName":"Dalhousie University",
     "libName":"W.K. Kellogg Health Sciences Library",
     "libUrl":"http://libraries.dal.ca/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libraries.dal.ca/locations_services/services/data_management.html"
   },
   {
     "instName":"Dartmouth College",
     "libName":"Dartmouth Biomedical Libraries",
     "libUrl":"http://www.dartmouth.edu/~library/biomed/?mswitch-redir=classic",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://researchguides.dartmouth.edu/data_management"
   },
   {
     "instName":"Drexel University",
     "libName":"Drexel University Libraries",
     "libUrl":"https://www.library.drexel.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"https://www.library.drexel.edu/research-data-management-support"
   },
   {
     "instName":"Duke University",
     "libName":"Medical Center Library",
     "libUrl":"https://mclibrary.duke.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.mclibrary.duke.edu/c.php?g=223516&p=1480636"
   },
   {
     "instName":"East Carolina University",
     "libName":"Laupus Health Sciences Library",
     "libUrl":"http://www.ecu.edu/cs-dhs/laupuslibrary/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.ecu.edu/cs-dhs/laupuslibrary/services/faculty.cfm"
   },
   {
     "instName":"Eastern Virginia Medical School",
     "libName":"Edward E. Brickell Medical Sciences Library",
     "libUrl":"http://www.evms.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Edward Via College of Osteopathic Medicine - Virginia Campus",
     "libName":"VCOM Library",
     "libUrl":"http://www.vcom.edu/vcomlibrary/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Emory University",
     "libName":"Woodruff Health Sciences Center Library",
     "libUrl":"http://healthlibrary.emory.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://web.library.emory.edu/research-learning/scholcomm-datamgmt/research-data-management.html"
   },
   {
     "instName":"Florida International University",
     "libName":"Herbert Wertheim College of Medicine",
     "libUrl":"http://medlib.fiu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Florida State University",
     "libName":"Charlotte Edwards Maguire Medical Library",
     "libUrl":"http://med.fsu.edu/?fuseaction=library.home",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://med-fsu.libguides.com/Publishing#s-lg-box-7847393"
   },
   {
     "instName":"Fox Chase Cancer Center",
     "libName":"Talbot Research Library",
     "libUrl":"http://library.foxchase.org/index.html",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://libguides.fccc.edu/content.php?pid=632143&sid=5230590"
   },
   {
     "instName":"Fred Hutchinson Cancer Reserch Center",
     "libName":"Arnold Library",
     "libUrl":"http://sharedresources.fredhutch.org/core-facilities/library",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://research.fhcrc.org/cds/en.html"
   },
   {
     "instName":"George Washington U Med Center",
     "libName":"Himmelfarb Health Science Library",
     "libUrl":"http://himmelfarb.gwu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://hsrc.himmelfarb.gwu.edu/"
   },
   {
     "instName":"Georgetown Univ Med Ctr",
     "libName":"Dahlgren Memorial Library",
     "libUrl":"http://dml.georgetown.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://hsrc.himmelfarb.gwu.edu/"
   },
   {
     "instName":"Georgia Regents University",
     "libName":"Robert B. Greenblatt MD Library",
     "libUrl":"http://www.augusta.edu/library/greenblatt/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://guides.gru.edu/c.php?g=229920&p=2012392"
   },
   {
     "instName":"Greenville Hopital System University Medical Center",
     "libName":"USCSOM - Greenville",
     "libUrl":"http://greenvillemed.sc.edu/library.shtml",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Harvard Medical School",
     "libName":"Countway Library of Medicine",
     "libUrl":"http://library.harvard.edu/med",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://isites.harvard.edu/icb/icb.do?keyword=k78759&tabgroupid=icb.tabgroup123330"
   },
   {
     "instName":"Health Science Center at Brooklyn Foundation, Inc.",
     "libName":"Med Research Library at Brooklyn",
     "libUrl":"http://library.downstate.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Hofstra Northwell School of Medicine",
     "libName":"Hofstra Northwell",
     "libUrl":"http://medicine.hofstra.edu/library/index.html",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Houston Academy of Medicine-Texas Med Ctr Library",
     "libName":"The Texas Medical Center Library",
     "libUrl":"http://library.tmc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://library.tmc.edu/services/nih-public-access-policy/#help"
   },
   {
     "instName":"Howard University",
     "libName":"Louis Stokes Health Sciences Library",
-    "libUrl":"http://www.founders.howard.edu/hslnew/",
-    "code":null,
-    "codeUrl":""
+    "libUrl":"http://hsl-howard.beta.libguides.com/index",
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Icahn School of Medicine at Mount Sinai",
     "libName":"Gustave L. and Janet W. Levy Library",
     "libUrl":"http://icahn.mssm.edu/about/ait/levy-library",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Indiana University School of Medicine",
     "libName":"Ruth Lilly Medical Library",
     "libUrl":"http://library.medicine.iu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://ulib.iupui.edu/digitalscholarship/datasupport/data_sharing"
   },
   {
     "instName":"Johns Hopkins University",
     "libName":"Welch Medical Library",
     "libUrl":"http://welch.jhmi.edu/welchone/",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://welch.jhmi.edu/welchone/The-Welch-Library-Embedded-Informationist-Program"
   },
   {
     "instName":"Loma Linda University",
     "libName":"Del E. Webb Memorial Library",
     "libUrl":"http://library.llu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://scholarsrepository.llu.edu/"
   },
   {
     "instName":"Louisiana State Univ, Health Sciences Ctr, Shreveport",
     "libName":"Health Sciences Library",
     "libUrl":"http://lib-sh.lsuhsc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Louisiana State Univ-New Orleans",
     "libName":"Health Sciences Library",
     "libUrl":"http://www.lsuhsc.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Loyola University Stritch School of Medicine",
     "libName":"Health Science Library",
     "libUrl":"http://library.luhs.org/hslibrary/index.htm",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Mayo Clinic",
     "libName":"Mayo Clinic Libraries",
     "libUrl":"http://www.mayo.edu/library",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.mayo.edu/ctsa/resources/consultative-resources/data-management"
   },
   {
     "instName":"McGill University",
     "libName":"Schulich Library",
     "libUrl":"http://www.mcgill.ca/library/branches/schulich",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.mcgill.ca/library/branches/research-commons/data-lab"
   },
   {
     "instName":"McMaster University",
     "libName":"Health Sciences Library",
     "libUrl":"http://hsl.mcmaster.ca/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://library.mcmaster.ca/rdm/preserving/archiving"
   },
   {
     "instName":"MCPHS University",
     "libName":"Health Sciences Library",
     "libUrl":"https://my.mcphs.edu/library",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Med Coll of Wisconsin",
     "libName":"Med Coll of Wisconsin Libraries",
     "libUrl":"http://www.mcw.edu/Libraries.htm",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Medical Sciences Campus, University of Puerto Rico",
     "libName":"Conrado F. Asenjo",
     "libUrl":"http://rcm-library.rcm.upr.edu/",
-    "code":null,
-    "codeUrl":""
-  },
-  {
-    "instName":"Medical Univ of South Carolina",
-    "libName":"Medical University of South Carolina Library",
-    "libUrl":"http://uscm.med.sc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Memorial Sloan Kettering Cancer Center",
     "libName":"Medical Library, Nathan Cummings Center",
     "libUrl":"https://library.mskcc.org/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Memorial University of Newfoundland",
     "libName":"Health Sciences Library",
     "libUrl":"http://www.library.mun.ca/hsl/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://guides.library.mun.ca/aboutrr"
   },
   {
     "instName":"Mercer University",
     "libName":"Mercer Medical Library & Peyton T. Anderson LRC",
     "libUrl":"http://med.mercer.edu/library/index-offcampus.html",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Michigan State University",
     "libName":"Michigan State Univ Libraries",
     "libUrl":"http://www.lib.msu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"https://www.lib.msu.edu/rdmg/resources/"
   },
   {
     "instName":"Midwestern University",
     "libName":"Library",
     "libUrl":"http://library.midwestern.edu/mwuhome",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://library.midwestern.edu/c.php?g=330600&p=2219423"
   },
   {
     "instName":"Miller School of Medicine, Univ. of Miami",
     "libName":"Louis Calder Memorial Library",
     "libUrl":"http://calder.med.miami.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://library.miami.edu/workshops-tutorials/"
   },
   {
     "instName":"Morehouse School of Medicine",
     "libName":"Morehouse School of Medicine Library",
     "libUrl":"http://www.msm.edu/Library/index.php",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"National Institutes of Health",
     "libName":"National Institute of Health",
     "libUrl":"https://www.nlm.nih.gov/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://nihlibrary.campusguides.com/dataservices"
   },
   {
     "instName":"New York Medical College",
     "libName":"Medical Sciences Library",
     "libUrl":"http://library.nymc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://guides.library.nymc.edu/dmp"
   },
   {
     "instName":"Northern Ontario School of Medicine, NW Campus, Lakehead University",
     "libName":"Health Sciences Library",
     "libUrl":"http://www.nosm.ca/library.aspx",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Northwestern University Feinberg School of Medicine",
     "libName":"Galter Health Sciences Library",
     "libUrl":"http://galter.northwestern.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://galter.northwestern.edu/News/mla-webinar-on-data-management-april-22-at-galter-library"
   },
   {
     "instName":"Nova Southeastern University",
     "libName":"Health Professions Div. Libr.",
     "libUrl":"http://www.nova.edu/hpdlibrary/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"NYU Langone Medical Center",
     "libName":"NYU Health Sciences Library",
     "libUrl":"http://hsl.med.nyu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://hsl.med.nyu.edu/divisions/RECS/research-support#datamanagement"
   },
   {
     "instName":"Oakland University William Beaumont School of Medicine",
     "libName":"Medical Library",
     "libUrl":"https://medlib.oakland.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Ohio State University",
     "libName":"Health Sciences Library",
     "libUrl":"https://hsl.osu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://hslguides.osu.edu/c.php?g=206882&p=1364868"
   },
   {
     "instName":"Oregon Health & Science University",
     "libName":"Library",
     "libUrl":"http://www.ohsu.edu/xd/education/library/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.ohsu.edu/xd/education/library/data/share-and-archive/index.cfm"
   },
   {
     "instName":"Penn State Hershey, Milton S. Hershey Med Ct, Penn State College of Medicine",
     "libName":"George T. Harrell Health Sciences Library",
     "libUrl":"https://www.libraries.psu.edu/psul/hershey.html",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://harrell.library.psu.edu/c.php?g=344616&p=2321160"
   },
   {
     "instName":"Philadelphia College of Osteo. Med.",
     "libName":"O.J. Snyder Memorial Medical Library",
     "libUrl":"http://welcometopcom.com/tours/phl-library.php",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Quinnipiac University",
     "libName":"Edward and Barbara Netter Library",
     "libUrl":"https://www.quinnipiac.edu/academics/libraries/edward-and-barbara-netter-library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Rosalind Franklin University of Medicine and Science",
     "libName":"Boxer Library",
     "libUrl":"https://rosalindfranklin.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Rowan University, School of Osteopathic Medicine",
     "libName":"Health Sciences Library",
     "libUrl":"http://www.lib.rowan.edu/som",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Rowan University, Cooper Medical School",
     "libName":"Library",
     "libUrl":"http://www.lib.rowan.edu/cmsru",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Rush University Medical Center",
     "libName":"Library of Rush University",
     "libUrl":"http://rushu.libguides.com/LibraryHomePage",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Rutgers, Robert Wood Johnson Medical School",
     "libName":"RWJ Library of the Health Sciences",
     "libUrl":"http://www.libraries.rutgers.edu/rwj",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.rutgers.edu/c.php?g=336179&p=2265204"
   },
   {
     "instName":"Rutgers",
     "libName":"George F. Smith Library of the Health Sciences",
     "libUrl":"http://www.libraries.rutgers.edu/smith",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.rutgers.edu/c.php?g=336179&p=2265204"
   },
   {
     "instName":"Saint Louis University",
     "libName":"Saint Louis Univ. Medical Center Health Sciences Ctr Library",
     "libUrl":"http://lib.slu.edu/mcl",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Seton Hall University",
     "libName":"Walsh Library",
     "libUrl":"http://library.shu.edu/walshgallery",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Southern Illinois University",
     "libName":"School of Medicine Library",
     "libUrl":"http://www.siumed.edu/lib/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Stanford Univ Medical Center",
     "libName":"Lane Medical Library",
     "libUrl":"http://lane.stanford.edu/index.html",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"https://library.stanford.edu/research/data-management-services"
   },
   {
     "instName":"Stony Brook University",
     "libName":"Health Sciences Ctr Library",
     "libUrl":"http://library.stonybrook.edu/health-sciences-library/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.library.stonybrook.edu/research-data-services/home"
   },
   {
     "instName":"SUNY Upstate Medical University",
     "libName":"Health Science Center Library",
     "libUrl":"http://library.upstate.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Temple University",
     "libName":"Ginsburg Health Sciences Library",
     "libUrl":"http://sites.temple.edu/hslblog/tag/ginsburg-library/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.temple.edu/datamgmt/deposit"
   },
   {
     "instName":"Texas A & M University",
     "libName":"Medical Sciences Library",
     "libUrl":"http://msl.library.tamu.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.library.tamu.edu/content.php?pid=320939&sid=2626996"
   },
   {
     "instName":"Texas Tech Univ Health Sci Ctr",
     "libName":"Preston Smith Library of the Health Sciences",
     "libUrl":"http://www.ttuhsc.edu/libraries/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"The Commonwealth Medical College",
     "libName":"Medical Library",
     "libUrl":"http://library.tcmedc.org/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"The University of Toledo",
     "libName":"Raymon H. Mulford Library",
     "libUrl":"http://www.utoledo.edu/library/mulford/index.html",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Thomas Jefferson University",
     "libName":"Scott Memorial Library",
     "libUrl":"http://library.jefferson.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://jefferson.libguides.com/data_management"
   },
   {
     "instName":"Tufts University",
     "libName":"Hirsh Health Sciences Library",
     "libUrl":"http://hirshlibrary.tufts.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://researchguides.library.tufts.edu/c.php?g=248974&p=1658063"
   },
   {
     "instName":"Tulane University",
     "libName":"Rudolph Matas Library of the Health Sciences",
     "libUrl":"http://matas.tulane.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.tulane.edu/socialsciencedata?p=1203104"
   },
   {
     "instName":"U AZ College of Medicine-Phx",
     "libName":"Arizona Health Sciences Library-Phoenix",
     "libUrl":"http://ahsl.arizona.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://data.library.arizona.edu/"
   },
   {
     "instName":"U of N Carolina at Chapel Hill",
     "libName":"Health Sciences Library",
     "libUrl":"http://hsl.lib.unc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.lib.unc.edu/c.php?g=8535&p=43813"
   },
   {
     "instName":"UC Irvine",
     "libName":"UCI Libraries",
     "libUrl":"http://www.lib.uci.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.lib.uci.edu/c.php?g=334457&p=2249966"
   },
   {
     "instName":"UCLA ",
     "libName":"Louise M. Darling Biomedical Library",
     "libUrl":"http://www.library.ucla.edu/biomed",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.library.ucla.edu/support/publishing-data-management/data-management-curation-services/data-storage-and-sharing"
   },
   {
     "instName":"Univ of Calif, San Francisco",
     "libName":"Library and Center for Knowledge Management",
     "libUrl":"https://www.library.ucsf.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.ucsf.edu/datamgmt"
   },
   {
     "instName":"Univ of California Davis",
     "libName":"Blaisdell Medical Library",
     "libUrl":"https://www.lib.ucdavis.edu/dept/hsl/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.lib.ucdavis.edu/repositories"
   },
   {
     "instName":"Univ of Connecticut Hlt Ctr",
     "libName":"Lyman Maynard Stowe Library",
     "libUrl":"http://library.uchc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://uchc.libguides.com/c.php?g=377270"
   },
   {
     "instName":"Univ of North Texas Health Sci Ctr",
     "libName":"Gibson D. Lewis Health Science Library",
     "libUrl":"http://library.hsc.unt.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Univ of Rochester Medical Ctr",
     "libName":"Edward G. Miner Library",
     "libUrl":"https://www.urmc.rochester.edu/libraries/miner/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.urmc.rochester.edu/c.php?g=324267&p=2171679"
   },
   {
     "instName":"Univ of Texas Hlt Sci Ctr",
     "libName":"Briscoe Library",
     "libUrl":"http://library.uthscsa.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Univ of Texas MD Anderson Cancer Ctr",
     "libName":"Research Medical Library - Unit 1499",
     "libUrl":"http://www3.mdanderson.org/library/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://www3.mdanderson.org/calendar/event/WEBINAR_Creating_a_Data_Management_Plan_24472.html"
   },
   {
     "instName":"Univ of Texas Southwestern Med Ctr",
     "libName":"Health Sciences Digital Library and Learning Center",
     "libUrl":"http://www.utsouthwestern.edu/education/library.html",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"Univ of Virginia Health System",
     "libName":"Claude Moore Health Sciences Library",
     "libUrl":"https://www.hsl.virginia.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://data.library.virginia.edu/data-management/plan/storage/"
   },
   {
     "instName":"Univ of Wisconsin-Madison",
     "libName":"Ebling Library",
     "libUrl":"http://ebling.library.wisc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://researchguides.ebling.library.wisc.edu/research-data-management/home"
   },
   {
     "instName":"Univ. of Illinois at Chicago",
     "libName":"Library of the Health Sciences",
     "libUrl":"http://library.uic.edu/lhs",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://researchguides.uic.edu/dataplans/preservingdata"
   },
   {
     "instName":"Univ. of Minnesota,Twin Cities",
     "libName":"Health Sciences Libraries",
     "libUrl":"https://hsl.lib.umn.edu/biomed",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"https://www.lib.umn.edu/datamanagement/drum"
   },
   {
     "instName":"Univ. of Nevada School of Med.",
     "libName":"Savitt Medical Library",
     "libUrl":"http://guides.library.unr.edu/savitt-medical",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://www.unr.edu/sponsored-projects/project-lifecycle/proposal-preparation-and-submission/data-management"
   },
   {
     "instName":"University at Buffalo (SUNY)",
     "libName":"Health Sciences Library",
     "libUrl":"http://library.buffalo.edu/hsl/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://library.buffalo.edu/scholarly/data/#Q2"
   },
   {
     "instName":"University of Alabama at Birmingham",
     "libName":"UAB Libraries",
     "libUrl":"https://www.uab.edu/lister/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://www.lhl.uab.edu/jhs/?p=2061"
   },
   {
     "instName":"University of Arizona",
     "libName":"Arizona Health Sciences Library",
     "libUrl":"http://ahsl.arizona.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://data.library.arizona.edu/sharing-research-data/data-repositories"
   },
   {
     "instName":"University of Arkansas for Medical Sciences",
     "libName":"UAMS LIbrary",
     "libUrl":"http://library.uams.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of Calgary",
     "libName":"University of Calgary - Libraries & Cultural Resources",
     "libUrl":"http://library.ucalgary.ca/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.ucalgary.ca/c.php?g=395022&p=2684189"
   },
   {
     "instName":"University of California Riverside",
     "libName":"Orbach Science Library",
     "libUrl":"http://library.ucr.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://library.ucr.edu/view/help/guides/data/workingdatageneral.html"
   },
   {
     "instName":"University of Central Florida College of Medicine",
     "libName":"Harriet F. Ginsburg Health Sciences Library",
     "libUrl":"https://med.ucf.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"https://library.ucf.edu/about/departments/scholarly-communication/data-management-plans/"
   },
   {
     "instName":"University of Chicago",
     "libName":"The John Crerar Library",
     "libUrl":"http://www.lib.uchicago.edu/e/crerar/index.html",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://data.lib.uchicago.edu/storage.html"
   },
   {
     "instName":"University of Cincinnati",
     "libName":"Donald C. Harrison Health Sciences Library",
     "libUrl":"http://www.libraries.uc.edu/hsl.html",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.libraries.uc.edu/c.php?g=222496&p=1472564"
   },
   {
     "instName":"University of Colorado Anschutz Medical Campus",
     "libName":"Health Sciences Library",
     "libUrl":"http://hslibrary.ucdenver.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"https://hslibrary.ucdenver.edu/research/data-management#ui-accordion-1-header-1"
   },
   {
     "instName":"University of Florida",
     "libName":"Health Science Center Libraries",
     "libUrl":"http://library.health.ufl.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://cms.uflib.ufl.edu/datamgmt/longtermstorage#archiveatuf"
   },
   {
     "instName":"University of Hawaii at Manoa",
     "libName":"Health Sciences Library, John A. Burns Schl of Med",
     "libUrl":"http://hslib.jabsom.hawaii.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.library.manoa.hawaii.edu/c.php?g=105253&p=685694"
   },
   {
     "instName":"University of Iowa",
     "libName":"Hardin Library for the Hlt Sci",
     "libUrl":"http://www.lib.uiowa.edu/hardin/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.lib.uiowa.edu/c.php?g=132111&p=864141#s-lg-box-2930948"
   },
   {
     "instName":"University of Kansas Medical Center",
     "libName":"Dykes Library",
     "libUrl":"http://library.kumc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.kumc.edu/school-of-medicine/department-of-biostatistics/shared-resources-and-cores-/data-management-and-statistics/services.html"
   },
   {
     "instName":"University of Kentucky",
     "libName":"Medical Center Library",
     "libUrl":"http://libraries.uky.edu/MCL",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.uky.edu/c.php?g=223382&p=1478752"
   },
   {
     "instName":"University of Louisville",
     "libName":"Kornhauser Health Sci Library",
     "libUrl":"http://louisville.edu/library",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://louisville.libguides.com/c.php?g=159041&p=1039809"
   },
   {
     "instName":"University of Manitoba",
     "libName":"Neil John Maclean Health Science Library",
     "libUrl":"http://libguides.lib.umanitoba.ca/health/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://umanitoba.ca/libraries/elibrary/mspace/"
   },
   {
     "instName":"University of Maryland, Baltimore",
     "libName":"Health Sciences & Human Svcs Library",
     "libUrl":"http://www.hshsl.umaryland.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://guides.hshsl.umaryland.edu/c.php?g=94040&p=609188"
   },
   {
     "instName":"University of Massachusetts Med Ctr",
     "libName":"Lamar Soutter Library",
     "libUrl":"http://library.umassmed.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libraryguides.umassmed.edu/campus"
   },
   {
     "instName":"University of Michigan",
     "libName":"Taubman Health Sciences Library",
     "libUrl":"http://www.lib.umich.edu/taubman-health-sciences-library",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.lib.umich.edu/research-data-services"
   },
   {
     "instName":"University of Mississippi Med Ctr",
     "libName":"Rowland Medical Library",
     "libUrl":"https://www.umc.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of Missouri",
     "libName":"J. Otto Lottes Health Sciences Library",
     "libUrl":"http://library.muhealth.org/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libraryguides.missouri.edu/c.php?g=28117&p=173329"
   },
   {
     "instName":"University of Missouri - Kansas City",
     "libName":"Health Sciences Librariy",
     "libUrl":"http://library.umkc.edu/hsl/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.library.umkc.edu/content.php?pid=220779&sid=1965009"
   },
   {
     "instName":"University of Nebraska Medical Center",
     "libName":"McGoogan Library of Medicine",
     "libUrl":"http://www.unmc.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://www.unmc.edu/vcr/rito/data-management/store-data/backup.html"
   },
   {
     "instName":"University of New Mexico",
     "libName":"Health Sciences Library & Informatics Center",
     "libUrl":"http://hslic.unm.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://libguides.unm.edu/c.php?g=232325&p=2720754"
   },
   {
     "instName":"University of North Dakota",
     "libName":"Library of the Health Sciences",
     "libUrl":"https://undmedlibrary.org/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://libguides.und.edu/data-management"
   },
   {
     "instName":"University of Oklahoma",
     "libName":"Robert M Bird Health Science Library",
     "libUrl":"http://library.ouhsc.edu/index",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of Ottawa",
     "libName":"Health Sciences Library",
     "libUrl":"http://biblio.uottawa.ca/en",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://uottawa.libguides.com/c.php?g=265341&p=1772885"
   },
   {
     "instName":"University of Pennsylvania",
     "libName":"Health Sciences Libraries",
     "libUrl":"http://www.library.upenn.edu/biomed/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.library.upenn.edu/dmp_penn"
   },
   {
     "instName":"University of Pittsburgh",
     "libName":"Health Sciences Library System",
     "libUrl":"http://www.hsls.pitt.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://hsls.libguides.com/datamanagement/DMP"
   },
   {
     "instName":"University of Saskatchewan",
     "libName":"Leslie and Irene Dube Health Sciences Library",
     "libUrl":"http://library.usask.ca/hsl/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://libguides.usask.ca/c.php?g=16494&p=91265"
   },
   {
     "instName":"University of South Alabama",
     "libName":"Biomedical Library",
     "libUrl":"http://biomedicallibrary.southalabama.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":2,
+    "codeUrl":"http://www.usask.ca/ict/services/research-technologies/data-management/index.php"
   },
   {
     "instName":"University of South Carolina",
     "libName":"School of Medicine Library",
     "libUrl":"http://uscm.med.sc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of South Dakota School of Med",
     "libName":"University Libraries and Wegner Health Science Information Center",
     "libUrl":"http://www.usd.edu/library/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of South Florida",
     "libName":"Shimberg Health Sciences Library",
     "libUrl":"http://library.hsc.usf.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":3,
+    "codeUrl":"http://guides.lib.usf.edu/dmp/c-image"
   },
   {
     "instName":"University of Southern California",
     "libName":"Norris Medical Library",
     "libUrl":"http://nml.usc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":1,
+    "codeUrl":"http://norris.usc.libguides.com/c.php?g=293826&p=1956551"
   },
   {
     "instName":"University of Tennessee Graduate School of Medicine",
     "libName":"Preston Medical Library",
     "libUrl":"http://gsm.utmck.edu/med_library/main.cfm",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of Tennessee Health Sciences Center",
     "libName":"Health Sciences Library",
     "libUrl":"http://library.uthsc.edu/",
-    "code":null,
-    "codeUrl":""
+    "code":0,
+    "codeUrl":"na"
   },
   {
     "instName":"University of Texas Medical Branch",
