@@ -45,7 +45,6 @@ McMaster University	Health Sciences Library	http://hsl.mcmaster.ca/	3	http://lib
 MCPHS University	Health Sciences Library	https://my.mcphs.edu/library	0	na
 Med Coll of Wisconsin	Med Coll of Wisconsin Libraries	http://www.mcw.edu/Libraries.htm	0	na
 Medical Sciences Campus, University of Puerto Rico	Conrado F. Asenjo	http://rcm-library.rcm.upr.edu/	0	na
-Medical Univ of South Carolina	Medical University of South Carolina Library	http://uscm.med.sc.edu/	0	na
 Memorial Sloan Kettering Cancer Center	Medical Library, Nathan Cummings Center	https://library.mskcc.org/	0	na
 Memorial University of Newfoundland	Health Sciences Library	http://www.library.mun.ca/hsl/	1	http://guides.library.mun.ca/aboutrr
 Mercer University	Mercer Medical Library & Peyton T. Anderson LRC	http://med.mercer.edu/library/index-offcampus.html	0	na
@@ -119,27 +118,27 @@ University of Kansas Medical Center	Dykes Library	http://library.kumc.edu/	3	htt
 University of Kentucky	Medical Center Library	http://libraries.uky.edu/MCL	3	http://libguides.uky.edu/c.php?g=223382&p=1478752
 University of Louisville	Kornhauser Health Sci Library	http://louisville.edu/library	3	http://louisville.libguides.com/c.php?g=159041&p=1039809
 University of Manitoba	Neil John Maclean Health Science Library	http://libguides.lib.umanitoba.ca/health/	3	http://umanitoba.ca/libraries/elibrary/mspace/
-University of Maryland, Baltimore	Health Sciences & Human Svcs Library	http://www.hshsl.umaryland.edu/		
-University of Massachusetts Med Ctr	Lamar Soutter Library	http://library.umassmed.edu/		
-University of Michigan	Taubman Health Sciences Library	http://www.lib.umich.edu/taubman-health-sciences-library		
-University of Mississippi Med Ctr	Rowland Medical Library	https://www.umc.edu/library/		
-University of Missouri	J. Otto Lottes Health Sciences Library	http://library.muhealth.org/		
-University of Missouri - Kansas City	Health Sciences Librariy	http://library.umkc.edu/hsl/		
-University of Nebraska Medical Center	McGoogan Library of Medicine	http://www.unmc.edu/library/		
-University of New Mexico	Health Sciences Library & Informatics Center	http://hslic.unm.edu/		
-University of North Dakota	Library of the Health Sciences	https://undmedlibrary.org/		
-University of Oklahoma	Robert M Bird Health Science Library	http://library.ouhsc.edu/index		
-University of Ottawa	Health Sciences Library	http://biblio.uottawa.ca/en		
-University of Pennsylvania	Health Sciences Libraries	http://www.library.upenn.edu/biomed/		
-University of Pittsburgh	Health Sciences Library System	http://www.hsls.pitt.edu/		
-University of Saskatchewan	Leslie and Irene Dube Health Sciences Library	http://library.usask.ca/hsl/		
-University of South Alabama	Biomedical Library	http://biomedicallibrary.southalabama.edu/library/		
-University of South Carolina	School of Medicine Library	http://uscm.med.sc.edu/		
-University of South Dakota School of Med	University Libraries and Wegner Health Science Information Center	http://www.usd.edu/library/		
-University of South Florida	Shimberg Health Sciences Library	http://library.hsc.usf.edu/		
-University of Southern California	Norris Medical Library	http://nml.usc.edu/		
-University of Tennessee Graduate School of Medicine	Preston Medical Library	http://gsm.utmck.edu/med_library/main.cfm		
-University of Tennessee Health Sciences Center	Health Sciences Library	http://library.uthsc.edu/		
+University of Maryland, Baltimore	Health Sciences & Human Svcs Library	http://www.hshsl.umaryland.edu/	1	http://guides.hshsl.umaryland.edu/c.php?g=94040&p=609188
+University of Massachusetts Med Ctr	Lamar Soutter Library	http://library.umassmed.edu/	3	http://libraryguides.umassmed.edu/campus
+University of Michigan	Taubman Health Sciences Library	http://www.lib.umich.edu/taubman-health-sciences-library	3	http://www.lib.umich.edu/research-data-services
+University of Mississippi Med Ctr	Rowland Medical Library	https://www.umc.edu/library/	0	na
+University of Missouri	J. Otto Lottes Health Sciences Library	http://library.muhealth.org/	3	http://libraryguides.missouri.edu/c.php?g=28117&p=173329
+University of Missouri - Kansas City	Health Sciences Librariy	http://library.umkc.edu/hsl/	3	http://libguides.library.umkc.edu/content.php?pid=220779&sid=1965009
+University of Nebraska Medical Center	McGoogan Library of Medicine	http://www.unmc.edu/library/	3	http://www.unmc.edu/vcr/rito/data-management/store-data/backup.html
+University of New Mexico	Health Sciences Library & Informatics Center	http://hslic.unm.edu/	3	http://libguides.unm.edu/c.php?g=232325&p=2720754
+University of North Dakota	Library of the Health Sciences	https://undmedlibrary.org/	1	http://libguides.und.edu/data-management
+University of Oklahoma	Robert M Bird Health Science Library	http://library.ouhsc.edu/index	0	na
+University of Ottawa	Health Sciences Library	http://biblio.uottawa.ca/en	3	http://uottawa.libguides.com/c.php?g=265341&p=1772885
+University of Pennsylvania	Health Sciences Libraries	http://www.library.upenn.edu/biomed/	3	http://guides.library.upenn.edu/dmp_penn
+University of Pittsburgh	Health Sciences Library System	http://www.hsls.pitt.edu/	3	http://hsls.libguides.com/datamanagement/DMP
+University of Saskatchewan	Leslie and Irene Dube Health Sciences Library	http://library.usask.ca/hsl/	1	http://libguides.usask.ca/c.php?g=16494&p=91265
+University of South Alabama	Biomedical Library	http://biomedicallibrary.southalabama.edu/library/	2	http://www.usask.ca/ict/services/research-technologies/data-management/index.php
+University of South Carolina	School of Medicine Library	http://uscm.med.sc.edu/	0	na
+University of South Dakota School of Med	University Libraries and Wegner Health Science Information Center	http://www.usd.edu/library/	0	na
+University of South Florida	Shimberg Health Sciences Library	http://library.hsc.usf.edu/	3	http://guides.lib.usf.edu/dmp/c-image
+University of Southern California	Norris Medical Library	http://nml.usc.edu/	1	http://norris.usc.libguides.com/c.php?g=293826&p=1956551
+University of Tennessee Graduate School of Medicine	Preston Medical Library	http://gsm.utmck.edu/med_library/main.cfm	0	na
+University of Tennessee Health Sciences Center	Health Sciences Library	http://library.uthsc.edu/	0	na
 University of Texas Medical Branch	Moody Medical Library	http://ar.utmb.edu/ar/library/tabid/155/default.aspx		
 University of Texas Medical School-Houston	Learning Resource Center	https://med.uth.edu/lrc/		
 University of Texas Rio Grande Valley	School of Medicine Libraries	http://www.utrgv.edu/library/		
