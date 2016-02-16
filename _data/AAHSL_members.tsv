@@ -2,7 +2,7 @@ instName	libName	libUrl	code	codeUrl
 A.T.Still U. of the Health Sciences	A.T. Still Memorial Library	http://www.atsu.edu/atsmlib	0	na
 Albany Medical College	Schaffer Library of Health Science	http://www.amc.edu/Academic/Schaffer/	0	na
 Albert Einstein College of Medicine	D. Samuel Gottesman Library	http://library.einstein.yu.edu/	1	http://libguides.einstein.yu.edu/rdm
-Alpert Medical School, Brown University	Champlin Memorial Library	http://library.brown.edu/	3	https://library.brown.edu/cds/activities/#consultation
+Brown University	Champlin Memorial Library	http://library.brown.edu/	3	https://library.brown.edu/cds/activities/#consultation
 Boston University Medical Center	Alumni Medical Library	http://med-libwww.bu.edu/	1	http://med-libwww.bu.edu/faculty/nih_policy.php
 Case Western Reserve University School of Medicine	Cleveland Health Science Library	http://www.case.edu/chsl/library/index.html	2	http://library.case.edu/ksl/freedmancenter/digitalscholarship/csgd/dataservices.html
 Centers for Disease Control & Prevention	CDC Public Health Library and Information Center	http://www.cdc.gov/library/	0	na
@@ -84,23 +84,23 @@ The University of Toledo	Raymon H. Mulford Library	http://www.utoledo.edu/librar
 Thomas Jefferson University	Scott Memorial Library	http://library.jefferson.edu/	1	http://jefferson.libguides.com/data_management
 Tufts University	Hirsh Health Sciences Library	http://hirshlibrary.tufts.edu/	3	http://researchguides.library.tufts.edu/c.php?g=248974&p=1658063
 Tulane University	Rudolph Matas Library of the Health Sciences	http://matas.tulane.edu/	3	http://libguides.tulane.edu/socialsciencedata?p=1203104
-U AZ College of Medicine-Phx	Arizona Health Sciences Library-Phoenix	http://ahsl.arizona.edu/	3	http://data.library.arizona.edu/
-U of N Carolina at Chapel Hill	Health Sciences Library	http://hsl.lib.unc.edu/	3	http://guides.lib.unc.edu/c.php?g=8535&p=43813
+University of Arizona at Phoenix	Arizona Health Sciences Library-Phoenix	http://ahsl.arizona.edu/	3	http://data.library.arizona.edu/
+University of North Carolina at Chapel Hill	Health Sciences Library	http://hsl.lib.unc.edu/	3	http://guides.lib.unc.edu/c.php?g=8535&p=43813
 UC Irvine	UCI Libraries	http://www.lib.uci.edu/	3	http://guides.lib.uci.edu/c.php?g=334457&p=2249966
 UCLA 	Louise M. Darling Biomedical Library	http://www.library.ucla.edu/biomed	3	http://www.library.ucla.edu/support/publishing-data-management/data-management-curation-services/data-storage-and-sharing
-Univ of Calif, San Francisco	Library and Center for Knowledge Management	https://www.library.ucsf.edu/	3	http://guides.ucsf.edu/datamgmt
-Univ of California Davis	Blaisdell Medical Library	https://www.lib.ucdavis.edu/dept/hsl/	3	http://guides.lib.ucdavis.edu/repositories
-Univ of Connecticut Hlt Ctr	Lyman Maynard Stowe Library	http://library.uchc.edu/	2	http://uchc.libguides.com/c.php?g=377270
-Univ of North Texas Health Sci Ctr	Gibson D. Lewis Health Science Library	http://library.hsc.unt.edu/	0	na
-Univ of Rochester Medical Ctr	Edward G. Miner Library	https://www.urmc.rochester.edu/libraries/miner/	3	http://libguides.urmc.rochester.edu/c.php?g=324267&p=2171679
-Univ of Texas Hlt Sci Ctr	Briscoe Library	http://library.uthscsa.edu/	0	na
-Univ of Texas MD Anderson Cancer Ctr	Research Medical Library - Unit 1499	http://www3.mdanderson.org/library/	1	http://www3.mdanderson.org/calendar/event/WEBINAR_Creating_a_Data_Management_Plan_24472.html
-Univ of Texas Southwestern Med Ctr	Health Sciences Digital Library and Learning Center	http://www.utsouthwestern.edu/education/library.html	0	na
-Univ of Virginia Health System	Claude Moore Health Sciences Library	https://www.hsl.virginia.edu/	3	http://data.library.virginia.edu/data-management/plan/storage/
-Univ of Wisconsin-Madison	Ebling Library	http://ebling.library.wisc.edu/	3	http://researchguides.ebling.library.wisc.edu/research-data-management/home
-Univ. of Illinois at Chicago	Library of the Health Sciences	http://library.uic.edu/lhs	3	http://researchguides.uic.edu/dataplans/preservingdata
-Univ. of Minnesota,Twin Cities	Health Sciences Libraries	https://hsl.lib.umn.edu/biomed	3	https://www.lib.umn.edu/datamanagement/drum
-Univ. of Nevada School of Med.	Savitt Medical Library	http://guides.library.unr.edu/savitt-medical	2	http://www.unr.edu/sponsored-projects/project-lifecycle/proposal-preparation-and-submission/data-management
+University of Calif, San Francisco	Library and Center for Knowledge Management	https://www.library.ucsf.edu/	3	http://guides.ucsf.edu/datamgmt
+University of California Davis	Blaisdell Medical Library	https://www.lib.ucdavis.edu/dept/hsl/	3	http://guides.lib.ucdavis.edu/repositories
+University of Connecticut Hlt Ctr	Lyman Maynard Stowe Library	http://library.uchc.edu/	2	http://uchc.libguides.com/c.php?g=377270
+University of North Texas Health Sci Ctr	Gibson D. Lewis Health Science Library	http://library.hsc.unt.edu/	0	na
+University of Rochester Medical Ctr	Edward G. Miner Library	https://www.urmc.rochester.edu/libraries/miner/	3	http://libguides.urmc.rochester.edu/c.php?g=324267&p=2171679
+University of Texas Health Science Center	Briscoe Library	http://library.uthscsa.edu/	0	na
+University of Texas MD Anderson Cancer Center	Research Medical Library - Unit 1499	http://www3.mdanderson.org/library/	1	http://www3.mdanderson.org/calendar/event/WEBINAR_Creating_a_Data_Management_Plan_24472.html
+University of Texas Southwestern Med Ctr	Health Sciences Digital Library and Learning Center	http://www.utsouthwestern.edu/education/library.html	0	na
+University of Virginia Health System	Claude Moore Health Sciences Library	https://www.hsl.virginia.edu/	3	http://data.library.virginia.edu/data-management/plan/storage/
+University of Wisconsin-Madison	Ebling Library	http://ebling.library.wisc.edu/	3	http://researchguides.ebling.library.wisc.edu/research-data-management/home
+University of Illinois at Chicago	Library of the Health Sciences	http://library.uic.edu/lhs	3	http://researchguides.uic.edu/dataplans/preservingdata
+University of Minnesota,Twin Cities	Health Sciences Libraries	https://hsl.lib.umn.edu/biomed	3	https://www.lib.umn.edu/datamanagement/drum
+University of Nevada School of Med.	Savitt Medical Library	http://guides.library.unr.edu/savitt-medical	2	http://www.unr.edu/sponsored-projects/project-lifecycle/proposal-preparation-and-submission/data-management
 University at Buffalo (SUNY)	Health Sciences Library	http://library.buffalo.edu/hsl/	3	http://library.buffalo.edu/scholarly/data/#Q2
 University of Alabama at Birmingham	UAB Libraries	https://www.uab.edu/lister/	1	http://www.lhl.uab.edu/jhs/?p=2061
 University of Arizona	Arizona Health Sciences Library	http://ahsl.arizona.edu/	3	http://data.library.arizona.edu/sharing-research-data/data-repositories
@@ -139,20 +139,20 @@ University of South Florida	Shimberg Health Sciences Library	http://library.hsc.
 University of Southern California	Norris Medical Library	http://nml.usc.edu/	1	http://norris.usc.libguides.com/c.php?g=293826&p=1956551
 University of Tennessee Graduate School of Medicine	Preston Medical Library	http://gsm.utmck.edu/med_library/main.cfm	0	na
 University of Tennessee Health Sciences Center	Health Sciences Library	http://library.uthsc.edu/	0	na
-University of Texas Medical Branch	Moody Medical Library	http://ar.utmb.edu/ar/library/tabid/155/default.aspx		
-University of Texas Medical School-Houston	Learning Resource Center	https://med.uth.edu/lrc/		
-University of Texas Rio Grande Valley	School of Medicine Libraries	http://www.utrgv.edu/library/		
-University of Toronto	Gerstein Science Information Centre	http://gerstein.library.utoronto.ca/		
-University of Utah	Spencer S. Eccles Hlt Sci Lib	http://library.med.utah.edu/		
-University of Vermont	Charles A. Dana Med Library	http://library.uvm.edu/dana/		
-University of Washington	Health Sciences Library	http://hsl.uw.edu/		
-Vanderbilt University	Eskind Biomedical Library	http://www.mc.vanderbilt.edu/diglib/		
-Virginia Commonwealth University	Tompkins-McCaw Library for the Health Sci	http://www.library.vcu.edu/about/libraries/tompkins-mccaw/		
-Washington State University	Spokane Academic Library	https://spokane.wsu.edu/library/		
-Washington University School of Medicine	Bernard Becker Medical Library	https://becker.wustl.edu/		
-Wayne State	Shiffman Medical Library	https://library.wayne.edu/shiffman		
-Weill Cornell Med College	Samuel J. Wood Library	http://library.med.cornell.edu/		
-Weill Cornell Medical College in Qatar	Distributed eLibrary	http://www.elibrary.qatar-med.cornell.edu/		
-Western Michigan University Homer Stryker M.D. School of Medicine	WMU Homer Stryker M.D. School of Medicine Library	http://libguides.med.wmich.edu/home		
-Western University of Health Sciences	Harriet K. & Philip Pumerantz Library	http://www.westernu.edu/library/		
-Yale University	Cushing/Whitney Medical Library	http://library.medicine.yale.edu/		
+University of Texas Medical Branch	Moody Medical Library	http://ar.utmb.edu/ar/library/tabid/155/default.aspx
+University of Texas Medical School-Houston	Learning Resource Center	https://med.uth.edu/lrc/
+University of Texas Rio Grande Valley	School of Medicine Libraries	http://www.utrgv.edu/library/
+University of Toronto	Gerstein Science Information Centre	http://gerstein.library.utoronto.ca/
+University of Utah	Spencer S. Eccles Hlt Sci Lib	http://library.med.utah.edu/
+University of Vermont	Charles A. Dana Med Library	http://library.uvm.edu/dana/
+University of Washington	Health Sciences Library	http://hsl.uw.edu/
+Vanderbilt University	Eskind Biomedical Library	http://www.mc.vanderbilt.edu/diglib/
+Virginia Commonwealth University	Tompkins-McCaw Library for the Health Sci	http://www.library.vcu.edu/about/libraries/tompkins-mccaw/
+Washington State University	Spokane Academic Library	https://spokane.wsu.edu/library/
+Washington University School of Medicine	Bernard Becker Medical Library	https://becker.wustl.edu/
+Wayne State	Shiffman Medical Library	https://library.wayne.edu/shiffman
+Weill Cornell Med College	Samuel J. Wood Library	http://library.med.cornell.edu/
+Weill Cornell Medical College in Qatar	Distributed eLibrary	http://www.elibrary.qatar-med.cornell.edu/
+Western Michigan University Homer Stryker M.D. School of Medicine	WMU Homer Stryker M.D. School of Medicine Library	http://libguides.med.wmich.edu/home
+Western University of Health Sciences	Harriet K. & Philip Pumerantz Library	http://www.westernu.edu/library/
+Yale University	Cushing/Whitney Medical Library	http://library.medicine.yale.edu/
