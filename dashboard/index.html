@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>web demo w/ arl members data</title>
+    <title>AAHSL RDM Survey</title>
     <meta name="description" content="">
     <meta name="author" content="Brian Zelip">
     <meta name="keywords" content="">
@@ -35,6 +35,7 @@
         color: #aaa;
       }
       .h0 { font-size: 4rem; }
+      .container { max-width:80em; }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.25.3/js/jquery.tablesorter.min.js"></script>
@@ -47,68 +48,84 @@
 
   <body class="bg-darken-1">
 
-    <div class="container">
-      <div class="clearfix mxn2">
+    <div class="container p2">
+      <div class="clearfix mxn1">
 
-        <section class="md-col md-col-6 lg-col-4 p2">
+        <section class="md-col md-col-4 p1">
+          <div class="border rounded box-shadow">
+            <h1 class="m0 p2 bg-darken-1">Method</h1>
+            <div class="bg-white rounded-bottom">
+              <p class="m0 p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae aperiam, natus! Consequatur esse eaque labore dolor illo consequuntur vel maiores. Sapiente quod iure dicta, rerum impedit dolor commodi qui, quis.</p>
+              <p class="m0 p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam corrupti aliquid sunt qui, a iste laboriosam quam incidunt ab minima veniam dolorem nobis debitis excepturi eius cupiditate inventore voluptates earum.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="md-col md-col-4 p1">
           <div class="border rounded box-shadow">
             <h1 class="m0 p2 bg-darken-1">Total number of AAHSL libraries</h1>
-            <div class="bg-white">
+            <div class="bg-white rounded-bottom">
               <p class="m0 p2 h0 ">157</p>
             </div>
           </div>
         </section>
 
-        <section class="md-col md-col-6 lg-col-4 p2">
+        <section class="md-col md-col-4 p1">
           <div class="border rounded box-shadow">
             <h1 class="m0 p2 bg-darken-1">Count of libraries by support levels</h1>
-            <div class="bg-white">
+            <div class="bg-white rounded-bottom">
               <p class="m0 p2">0-52<br>1-21<br>2-9<br>3-75</p>
             </div>
           </div>
         </section>
 
-        <section class="md-col md-col-6 lg-col-4 p2">
+      </div>
+    </div>
+
+    <div class="container p2">
+      <div class="clearfix mxn1">
+
+        <section class="md-col md-col-4 p1">
           <div class="border rounded box-shadow">
             <h1 class="m0 p2 bg-darken-1">AAHSL Data Management Support</h1>
-            <div class="bg-white">
+            <div class="bg-white rounded-bottom overflow-scroll">
               <table class="table-light" id="evidence">
-                  <thead>
-                    <tr>
-                      <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Institution</th>
-                      <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Evidence</th>
-                    </tr>
-                  </thead>
-                  <tbody>{% for member in site.data.AAHSL_members %}
-                    <tr>
-                      <td>
-                        <a href="{{ member.libUrl }}">{{ member.instName }}</a>
-                      </td>
-                      {% if member.code == 0 %}
-                      <td>
-                        <span class="blue">None found</span>
-                      </td>
-                      {% elsif member.code == 1 %}
-                      <td class="align-middle">
-                        <span class="hide">1</span><a class="p1 bg-yellow black" href="{{ member.codeUrl }}">Education</a>
-                      </td>
-                      {% elsif member.code == 2 %}
-                      <td class="align-middle">
-                        <span class="hide">2</span><a class="p1 bg-black white" href="{{ member.codeUrl }}">Consultation</a>
-                      </td>
-                      {% elsif member.code == 3 %}
-                      <td class="align-middle">
-                        <span class="hide">3</span><a class="p1 bg-red white" href="{{ member.codeUrl }}">Infrastructure</a>
-                      </td>
-                      {% else %}
-                      <td>
-                        <span class="blue">NA</span>
-                      </td>
-                      {% endif %}
-                    </tr>{% endfor %}
-                  </tbody>
-                </table>
-              </div>
+                <thead>
+                  <tr>
+                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Institution</th>
+                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Evidence</th>
+                  </tr>
+                </thead>
+                <tbody>{% for member in site.data.AAHSL_members %}
+                  <tr>
+                    <td>
+                      <a href="{{ member.libUrl }}">{{ member.instName }}</a>
+                    </td>
+                    {% if member.code == 0 %}
+                    <td>
+                      <span class="blue">None found</span>
+                    </td>
+                    {% elsif member.code == 1 %}
+                    <td class="align-middle">
+                      <span class="hide">1</span><a class="p1 bg-yellow black" href="{{ member.codeUrl }}">Education</a>
+                    </td>
+                    {% elsif member.code == 2 %}
+                    <td class="align-middle">
+                      <span class="hide">2</span><a class="p1 bg-black white" href="{{ member.codeUrl }}">Consultation</a>
+                    </td>
+                    {% elsif member.code == 3 %}
+                    <td class="align-middle">
+                      <span class="hide">3</span><a class="p1 bg-red white" href="{{ member.codeUrl }}">Infrastructure</a>
+                    </td>
+                    {% else %}
+                    <td>
+                      <span class="blue">NA</span>
+                    </td>
+                    {% endif %}
+                  </tr>{% endfor %}
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
 
