@@ -62,33 +62,31 @@
         </section>
 
         <section class="md-col md-col-4 p1">
-          <div class="border rounded box-shadow">
-            <h1 class="m0 p2 bg-darken-1">Total number of AAHSL libraries</h1>
-            <div class="bg-white rounded-bottom">
-              <p class="m0 p2 h0 ">157</p>
+          <div class="clearfix">
+            <div class="col-12 mb2">
+              <div class="border rounded box-shadow">
+                <h1 class="m0 p2 bg-darken-1">Total number of AAHSL libraries</h1>
+                <div class="bg-white rounded-bottom">
+                  <p class="m0 p2 h0 ">157</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="border rounded box-shadow">
+                <h1 class="m0 p2 bg-darken-1">Count of libraries by support levels</h1>
+                <div class="bg-white rounded-bottom">
+                  <p class="m0 p2">0-52<br>1-21<br>2-9<br>3-75</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
-
-        <section class="md-col md-col-4 p1">
-          <div class="border rounded box-shadow">
-            <h1 class="m0 p2 bg-darken-1">Count of libraries by support levels</h1>
-            <div class="bg-white rounded-bottom">
-              <p class="m0 p2">0-52<br>1-21<br>2-9<br>3-75</p>
-            </div>
-          </div>
-        </section>
-
-      </div>
-    </div>
-
-    <div class="container p2">
-      <div class="clearfix mxn1">
 
         <section class="md-col md-col-4 p1">
           <div class="border rounded box-shadow">
             <h1 class="m0 p2 bg-darken-1">AAHSL Data Management Support</h1>
-            <div class="bg-white rounded-bottom overflow-scroll">
+            <div class="bg-white rounded-bottom overflow-auto">
               <table class="table-light" id="evidence">
                 <thead>
                   <tr>
@@ -96,7 +94,7 @@
                     <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Evidence</th>
                   </tr>
                 </thead>
-                <tbody>{% for member in site.data.AAHSL_members %}
+                <tbody>{% for member in site.data.AAHSL_members_test %}
                   <tr>
                     <td>
                       <a href="{{ member.libUrl }}">{{ member.instName }}</a>
