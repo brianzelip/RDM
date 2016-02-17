@@ -38,6 +38,7 @@
       .h0 { font-size: 4rem; }
       .container { max-width:85em; }
       .p25 { padding: .25rem .5rem .25rem .5rem; }
+      .pointer:hover { cursor:pointer; }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.25.3/js/jquery.tablesorter.min.js"></script>
@@ -115,8 +116,8 @@
               <table class="table-light" id="evidence">
                 <thead>
                   <tr>
-                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Institution</th>
-                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Level</th>
+                    <th class="sortable dotted-line pointer"><i class="fa fa-arrows-v"></i> Institution</th>
+                    <th class="sortable dotted-line pointer"><i class="fa fa-arrows-v"></i> Level</th>
                   </tr>
                 </thead>
                 <tbody>{% for member in site.data.AAHSL_members %}
