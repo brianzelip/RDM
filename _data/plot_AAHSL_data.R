@@ -22,7 +22,7 @@ AAHSLdata$Code
 #  - Y axis - count of libraries per level
 #  - print the count in text above each bar
 #  - adjust X axis text so that the labels are readable on small viewports
-AAHSLplot <- ggplot(AAHSLdata, aes(x=Code)) + geom_bar(fill="#0088cc") + stat_count(geom="text", size=6, colour="white", aes(label=..count.., vjust=1.5)) + labs(x = "Levels", y = "Libraries") + theme_bw(base_size = 16) + theme(axis.text.x=element_text(angle=45, hjust = 1))
+AAHSLplot <- ggplot(AAHSLdata, aes(x=Code)) + geom_bar(fill="#0074d9") + stat_count(geom="text", size=6, colour="white", aes(label=..count.., vjust=1.5)) + labs(x = "Levels", y = "Libraries") + theme_bw(base_size = 16) + theme(axis.text.x=element_text(angle=45, hjust = 1))
 
 # generate the plot
 AAHSLplot
