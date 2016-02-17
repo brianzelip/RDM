@@ -36,6 +36,7 @@
       }
       .h0 { font-size: 4rem; }
       .container { max-width:80em; }
+      .p25 { padding: .25rem .5rem .25rem .5rem; }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.25.3/js/jquery.tablesorter.min.js"></script>
@@ -62,6 +63,50 @@
         </section>
 
         <section class="md-col md-col-4 p1">
+          <div class="border rounded box-shadow">
+            <h1 class="m0 p2 bg-darken-1">Data management support levels of AAHSL institutions</h1>
+            <div class="bg-white rounded-bottom overflow-auto">
+              <table class="table-light" id="evidence">
+                <thead>
+                  <tr>
+                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Institution</th>
+                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Level</th>
+                  </tr>
+                </thead>
+                <tbody>{% for member in site.data.AAHSL_members %}
+                  <tr>
+                    <td>
+                      <a href="{{ member.libUrl }}">{{ member.instName }}</a>
+                    </td>
+                    {% if member.code == 0 %}
+                    <td class="align-middle">
+                      <span class="blue">None found</span>
+                    </td>
+                    {% elsif member.code == 1 %}
+                    <td class="align-middle">
+                      <span class="hide">1</span><a class="p25 bg-yellow black" href="{{ member.codeUrl }}">Education</a>
+                    </td>
+                    {% elsif member.code == 2 %}
+                    <td class="align-middle">
+                      <span class="hide">2</span><a class="p25 bg-black white" href="{{ member.codeUrl }}">Consultation</a>
+                    </td>
+                    {% elsif member.code == 3 %}
+                    <td class="align-middle">
+                      <span class="hide">3</span><a class="p25 bg-red white" href="{{ member.codeUrl }}">Infrastructure</a>
+                    </td>
+                    {% else %}
+                    <td>
+                      <span class="blue">NA</span>
+                    </td>
+                    {% endif %}
+                  </tr>{% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <section class="md-col md-col-4 p1">
           <div class="clearfix">
             <div class="col-12 mb2">
               <div class="border rounded box-shadow">
@@ -79,50 +124,6 @@
                   <p class="m0 p2">0-52<br>1-21<br>2-9<br>3-75</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="md-col md-col-4 p1">
-          <div class="border rounded box-shadow">
-            <h1 class="m0 p2 bg-darken-1">AAHSL Data Management Support</h1>
-            <div class="bg-white rounded-bottom overflow-auto">
-              <table class="table-light" id="evidence">
-                <thead>
-                  <tr>
-                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Institution</th>
-                    <th class="sortable dotted-line"><i class="fa fa-arrows-v"></i> Evidence</th>
-                  </tr>
-                </thead>
-                <tbody>{% for member in site.data.AAHSL_members %}
-                  <tr>
-                    <td>
-                      <a href="{{ member.libUrl }}">{{ member.instName }}</a>
-                    </td>
-                    {% if member.code == 0 %}
-                    <td>
-                      <span class="blue">None found</span>
-                    </td>
-                    {% elsif member.code == 1 %}
-                    <td class="align-middle">
-                      <span class="hide">1</span><a class="p1 bg-yellow black" href="{{ member.codeUrl }}">Education</a>
-                    </td>
-                    {% elsif member.code == 2 %}
-                    <td class="align-middle">
-                      <span class="hide">2</span><a class="p1 bg-black white" href="{{ member.codeUrl }}">Consultation</a>
-                    </td>
-                    {% elsif member.code == 3 %}
-                    <td class="align-middle">
-                      <span class="hide">3</span><a class="p1 bg-red white" href="{{ member.codeUrl }}">Infrastructure</a>
-                    </td>
-                    {% else %}
-                    <td>
-                      <span class="blue">NA</span>
-                    </td>
-                    {% endif %}
-                  </tr>{% endfor %}
-                </tbody>
-              </table>
             </div>
           </div>
         </section>
