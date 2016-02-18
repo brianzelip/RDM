@@ -1,3 +1,5 @@
+library(ggplot2)
+
 # read in data
 AAHSLdata <- read.csv("code_categories.csv", header = T)
 
