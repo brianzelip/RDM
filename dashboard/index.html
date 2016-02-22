@@ -86,29 +86,46 @@
                   <p>This data provides a baseline look at the landscape of RDM support that academic health science libraries are either providing or referring patrons to within their broader institution.</p>
                   <p>The theoretical framework that informs our understanding of RDM support comes from a journal article<sup>[<a href="#1">1</a>]</sup> and subsequent webinar<sup>[<a href="#2">2</a>]</sup> that identify three support levels:
                     <ol>
-                      <li>Education: teaching patrons about RDM</li>
-                      <li>Consultation: working with patrons on actual projects</li>
-                      <li>Infrastructure: institutionally-endorsed platforms and policies for RDM</li>
+                      <li>Education (teaching patrons about RDM)</li>
+                      <li>Consultation (working with patrons on actual projects)</li>
+                      <li>Infrastructure (institutionally-endorsed platforms and policies for RDM)</li>
                     </ol>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="col-12">
+            <div class="col-12 mb2">
               <div class="border rounded box-shadow">
                 <h1 class="m0 p2 bg-darken-1">Method</h1>
                 <div class="p2 bg-white rounded-bottom">
-                  <p class="">ALA webinar <a href="http://www.ala.org/alcts/confevents/upcoming/webinar/011916">The Data Life Cycle and the Landscape of Library-Led Services</a></p>
+                  <p>The approach for identifying evidence of levels of RDM support was as follows:</p>
+                  <ol>
+                    <li>Scrape the AAHSL member directory<sup>[<a href="#3">3</a>] for institution + library name pairs.</li>
+                    <li>Perform web search for each institution + library name pair to collect library URLs.</li>
+                    <li>Perform the following search process at each library website:
+                      <ol>
+                        <li>Use a library search box to search the library site for the following boolean query phrase:<br><code>"data services" OR "data management" OR "data support" OR "research data"</code></li>
+                        <li>If no results from the previous step, use the library search box to search the library website for the individual components of the query phrase (quoted)</li>
+                        <li>If no results from the previous step, use the library search box to search the library website for the individual components of the query phrase (unquoted)</li>
+                        <li>If no results from the previous step, manually browse the library website for common sections such as "Services", "Guides", etc.</li>
+                        <li>If no results from the previous step, use the university-wide search box for query phrase</li>
+                      </ol>
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>
 
             <div class="col-12">
               <div class="border rounded box-shadow">
-                <h1 class="m0 p2 bg-darken-1">Method</h1>
+                <h1 class="m0 p2 bg-darken-1">References</h1>
                 <div class="p2 bg-white rounded-bottom">
-                  <p class="">ALA webinar <a href="http://www.ala.org/alcts/confevents/upcoming/webinar/011916">The Data Life Cycle and the Landscape of Library-Led Services</a></p>
+                  <ol>
+                    <li id="1">Reznik-Zellen, Rebecca C.; Adamick, Jessica; and McGinty, Stephen. (2012) "Tiers of Research Data Support Services." <em>Journal of eScience Librarianship</em> 1(1): Article 5. <a href="http://dx.doi.org/10.7191/jeslib.2012.1002">http://dx.doi.org/10.7191/jeslib.2012.1002</a></li>
+                    <li id="2">Doty, Jennifer; Eaker, Christopher; Wirz, Jackie; Champieux, Robin. (2016-01-19) The Data Life Cycle and the Landscape of Library-Led Services [Webinar]. In <em>ALCTS Webinar Series</em>. Retrieved from <a href="http://www.ala.org/alcts/confevents/upcoming/webinar/011916">http://www.ala.org/alcts/confevents/upcoming/webinar/011916</a></li>
+                    <li id="3">Association of Academic Health Sciences Libraries (AAHSL). (nd) Listing of Current Members. Retrieved from <a href="http://www.aahsl.org/index.php?option=com_community&view=search&searchId=102171 on 2016-02-05">http://www.aahsl.org/index.php?option=com_community&view=search&searchId=102171 on 2016-02-05</a>.</li>
+                  </ol>
                 </div>
               </div>
             </div>
