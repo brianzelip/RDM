@@ -1,4 +1,8 @@
+# load plotting library
 library(ggplot2)
+
+# set working directory to the data directory
+setwd("Documents/work/RDM/_data/")
 
 # read in data
 AAHSLdata <- read.csv("code_categories.csv", header = T)
